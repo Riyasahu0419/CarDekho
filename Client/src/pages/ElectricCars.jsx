@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronRight } from 'lucide-react';
 
-const ElectricCars = () => {
+export const ElectricCars = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const carData = [
@@ -80,5 +80,3 @@ const ElectricCars = () => {
     </div>
   );
 };
-
-export default ElectricCars;

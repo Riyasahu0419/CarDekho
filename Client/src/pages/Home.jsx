@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CarSearch from './mostSearches';
+import CarSearch from './MostSearches';
 import ElectricCars from './ElectricCars';
 import LatestCars from './LatestCar';
 
