@@ -20,7 +20,7 @@ const CarCard = ({ brand, model, priceStart, priceEnd, imageUrl }) => {
   );
 };
 
-const CarSearchUI = () => {
+const CarSearch = () => {
   const [activeCategory, setActiveCategory] = useState('SUV');
   const sliderRef = useRef(null);
   
@@ -261,4 +261,4 @@ const CarSearchUI = () => {
   );
 };
 
-export default CarSearchUI;  
+export default CarSearch;  
